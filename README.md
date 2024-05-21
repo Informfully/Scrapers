@@ -5,7 +5,7 @@ Welcome to the [Informfully](https://informfully.ch/)!
 
 To view the documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/). It it the combined and official Informfully Documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
 
-You can access the [Scrapers documentation directly here](https://informfully.readthedocs.io/en/latest/scraper.html).
+You can access the [Scrapers documentation directly here](https://informfully.readthedocs.io/en/latest/scrapers.html).
 
 ## Citation
 If you use any Informfully code/repository in a scientific publication, we ask you to cite the following papers:
