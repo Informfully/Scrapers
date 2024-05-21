@@ -1,9 +1,11 @@
 # Scrapers
 Informfully - Scrapers
 
-Welcome to the [Informfully Platform](https://informfully.ch/)!
+Welcome to the [Informfully](https://informfully.ch/)!
 
-Please see the official Informfully Documentation for all [code repositories](https://github.com/Informfully/Documentation).
+To view the documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/). It it the combined and official Informfully Documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
+
+You can access the [Scrapers documentation directly here](https://informfully.readthedocs.io/en/latest/scraper.html).
 
 ## Citation
 If you use any Informfully code/repository in a scientific publication, we ask you to cite the following papers:
@@ -43,4 +45,4 @@ Your are welcome to contribute to the Informfully ecosystem and become a part of
   - fork any of the [Informfully repositories](https://github.com/Informfully/Documentation) and
   - make changes and create pull requests.
 
-Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues).
+Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
