@@ -2,9 +2,11 @@
 
 ![Informfully](https://informfully.readthedocs.io/en/latest/_images/logo_banner.png)
 
-Welcome to the [Informfully](https://informfully.ch/)! Informfully is a open-source reproducibility platform for content distribution and user experiments from the [University of Zurich](https://www.ifi.uzh.ch/en.html).
+Welcome to the [Informfully](https://informfully.ch/)!
+Informfully is a open-source reproducibility platform for content distribution and user experiments.
 
-To view the documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/). It is the combined documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
+To view the full documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/).
+It is the combined documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
 
 **Links and Resources:** [Website](https://informfully.ch/) | [Documentation](https://informfully.readthedocs.io/) | [Informfully](https://github.com/orgs/Informfully/repositories) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html)
 
@@ -23,7 +25,7 @@ git clone https://github.com/Informfully/Scrapers.git
 
 Informfully is complemented by a dedicated content scraper.
 The entire content scraper pipeline is written in Python and uses MongoDB for persistent storage of news items.
-All you need to do is to run add a scraper to [the scraper package](https://github.com/Informfully/Scrapers/tree/main/scraperpackage/scrapers>) and call it in `main.py`.
+All you need to do is to run add a scraper to [the scraper package](https://github.com/Informfully/Scrapers/tree/main/scraperpackage/scrapers) and call it in `main.py`.
 You find sample implementations in this folder as well.
 
 The individual scraper modules (called `scrape.py` or `scrape\_n.py`) are required to implement a scraping function `scrape()`.
