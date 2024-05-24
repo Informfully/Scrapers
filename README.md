@@ -12,7 +12,7 @@ It is the combined documentation for all [code repositories](https://github.com/
 
 ## Installation
 
-The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access full the [Scrapers documentation here](https://informfully.readthedocs.io/en/latest/scrapers.html).
+The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access the full [Scrapers documentation here](https://informfully.readthedocs.io/en/latest/scrapers.html).
 
 ### Download the Code
 
