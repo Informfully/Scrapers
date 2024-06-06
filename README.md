@@ -33,7 +33,7 @@ There are two main parts to the scraper.
 The first part contains the scraper implementations that allow collecting/scraping online resources.
 The second part is the processing pipeline for text normalization, cleaning, and subsequent steps before storing them in the database.
 
-![Architecture](https://informfully.readthedocs.io/en/latest/_images/content_scraper.png)
+![Architecture](https://github.com/Informfully/Documentation/blob/main/docs/source/img/content_scraper_non-transparent.png)
 
 ## Citation
 If you use any Informfully code/repository in a scientific publication, we ask you to cite the following papers:
