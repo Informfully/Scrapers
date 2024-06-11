@@ -33,17 +33,21 @@ def get_rss_feed(feed):
         article_props['title'] = rss_article.title
         article_props['lead'] = re.sub(r'<.*?>', '', rss_article.description)
         article_props['author'] = rss_article.author
+        
         if hasattr(rss_article, 'tags'):
             article_props['primaryCategory'] = rss_article.tags
         else:
             article_props['primaryCategory'] = "None"
+        
         datestring = rss_article.published.split(" GMT")[0]
         published = parser.parse(datestring)
         article_props['date_published'] = published
+        
         if hasattr(rss_article, 'media_content'):
             article_props['image'] = rss_article.media_content
         else:
             article_props['image'] = "None"
+        
         input_datetime = rss_article.updated
         parsed_datetime = datetime.strptime(input_datetime, "%Y-%m-%dT%H:%M:%S+00:00")
         formatted_datetime = parsed_datetime.strftime("%Y-%m-%d %H:%M:%S.%f")
@@ -146,7 +150,7 @@ def scrape():
                 try:
                     new_article = scrape_article(article)
 
-                    # check if article is eligible for recommendation
+                    # Check if article is eligible for recommendation
                     if new_article and len(new_article['body']) >= 7 and new_article['image'] != "None":
                         newsarticles_collection.append(new_article)
                         retrieved_articles += 1

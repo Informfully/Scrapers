@@ -83,17 +83,17 @@ def scrape_article(article, category):
     # Create article
     document = create_article(
         url=article['url'],
-        primary_category=category,          # string
-        sub_categories=DEFAULT_CATEGORY,    # string
+        primary_category=category,                              # string
+        sub_categories=DEFAULT_CATEGORY,                        # string
         title=utility.clean_text(article['title']),             # string
         lead=utility.clean_text(article['lead']),               # string
-        author=author,                      # string
-        date_published=published,           # datetime
-        date_updated=published,             # datetime - NEEDS WORK
-        language=NEWS_LANGUAGE,             # string
-        outlet=NEWS_OUTLET,                 # string
-        image=image,                        # image
-        body=body                           # list of dictionaries
+        author=author,                                          # string
+        date_published=published,                               # datetime
+        date_updated=published,                                 # datetime
+        language=NEWS_LANGUAGE,                                 # string
+        outlet=NEWS_OUTLET,                                     # string
+        image=image,                                            # image
+        body=body                                               # list of dictionaries
     )
     return document
 
@@ -111,10 +111,11 @@ def scrape():
         rss_results = get_rss_feed(feed)
         retrieved_articles = 0
         skipped_articles = 0
+
         for article in rss_results:
             try:
                 new_article = scrape_article(article, category)
-
+                
                 # Check if article is eligible for recommendation
                 if new_article and len(new_article['body']) >= 7 and new_article['image'] != "None":
                    newsarticles_collection.append(new_article)

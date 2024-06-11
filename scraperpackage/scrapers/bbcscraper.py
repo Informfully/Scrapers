@@ -5,15 +5,12 @@ from datetime import datetime
 from bson import json_util
 import utils.utils as utility
 
-# Define the default name and feed of the news outlet
-
 NEWS_OUTLET = "BBC"
 NEWS_FEEDS = ["http://feeds.bbci.co.uk/news/rss.xml"]
 NEWS_LANGUAGE = "en-UK"
 DEFAULT_AUTHOR = "NONE"
 DEFAULT_CATEGORY = "NONE"
 date = datetime.utcnow()
-
 
 # Read the RSS feed and retrieve URL and article metadata
 def get_rss_feed(feed):

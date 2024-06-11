@@ -63,6 +63,7 @@ def scrape():
                     all_paragraphs.append(e)
                 filtered_paragraphs = [p for p in all_paragraphs if not p.has_attr('class')]
                 body = []
+                
                 for p in filtered_paragraphs:
                     if "Read more:" not in p.text and "Related:" not in p.text:
                         if p.find('strong'):

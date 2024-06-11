@@ -30,13 +30,16 @@ def get_rss_feed(feed):
         article_props['title'] = rss_article.title
         article_props['lead'] = rss_article.summary
         article_props['author'] = rss_article.author
+        
         try:
             article_props['primaryCategory'] = rss_article.tags
         except:
             article_props['primaryCategory'] = "None"
+        
         datestring = rss_article.published.split(" GMT")[0]
         published = parser.parse(datestring)
         article_props['date_published'] = published
+       
         try:
             article_props['image'] = rss_article.media_content
         except:
