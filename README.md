@@ -25,15 +25,15 @@ git clone https://github.com/Informfully/Scrapers.git
 
 Informfully is complemented by a dedicated content scraper.
 The entire content scraper pipeline is written in Python and uses MongoDB for persistent storage of news items.
-All you need to do is to run add a scraper to [the scraper package](https://github.com/Informfully/Scrapers/tree/main/scraperpackage/scrapers) and call it in `main.py`.
+All you need to do is to run add a scraper to [the scraper package](https://github.com/Informfully/Scrapers/tree/main/scraperpackage/scrapers) and call it in *main.py*.
 You find sample implementations in this folder as well.
 
-The individual scraper modules (called `scrape.py` or `scrape\_n.py`) are required to implement a scraping function `scrape()`.
+The individual scraper modules (called *scrape.py* or *scrape\_n.py*) are required to implement a scraping function *scrape()*.
 There are two main parts to the scraper.
 The first part contains the scraper implementations that allow collecting/scraping online resources.
 The second part is the processing pipeline for text normalization, cleaning, and subsequent steps before storing them in the database.
 
-![Architecture](https://github.com/Informfully/Documentation/blob/main/docs/source/img/content_scraper_non-transparent.png)
+![Architecture](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/content_scraper_non-transparent.png)
 
 ## Citation
 If you use any Informfully code/repository in a scientific publication, we ask you to cite the following papers:
@@ -75,4 +75,4 @@ Please post your feature requests and bug reports in our [GitHub issues](https:/
 ## License
 Released under the [MIT License](LICENSE). (Please note that the respective copyright licenses of third-party libraries and dependencies apply.)
 
-![Screenshots](https://informfully.readthedocs.io/en/latest/_images/app_screens.png)
+![Screenshots](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/app_screens.png)
