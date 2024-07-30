@@ -1,4 +1,4 @@
-# Informfully Documentation
+# Informfully Scrapers
 
 ![Informfully](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/logo_banner.png)
 
