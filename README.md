@@ -11,8 +11,8 @@ It is the combined documentation for all [code repositories](https://github.com/
 **Links and Resources:** [GitHub](https://github.com/orgs/Informfully) | [Website](https://informfully.ch) | [X](https://x.com/informfully) | [Documentation](https://informfully.readthedocs.io) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html) | [Google Play](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [App Store](https://apps.apple.com/us/app/informfully/id1460234202)
 
 > Note: Our GitHub repositories allow you to run your own instance of Informfully.
-If you want to use the Informfully a cloud service, hosted at the University of Zurich, please reach out to us.
-Free demo accounts available upon reqeust: info@informfully.ch
+If you want to use Informfully, a cloud service hosted at the University of Zurich, please reach out to us.
+Free demo accounts available upon request: info@informfully.ch
 
 ## Informfully Preview
 
@@ -35,8 +35,8 @@ git clone https://github.com/Informfully/Scrapers.git
 
 Informfully is complemented by a dedicated content scraper.
 The entire content scraper pipeline is written in Python and uses MongoDB for persistent storage of news items.
-All you need to do is to run add a scraper to [the scraper package](https://github.com/Informfully/Scrapers/tree/main/scraperpackage/scrapers) and call it in *main.py*.
-You find sample implementations in this folder as well.
+All you need to do is run and add a scraper to [the scraper package](https://github.com/Informfully/Scrapers/tree/main/scraperpackage/scrapers) and call it in *main.py*.
+You can find sample implementations in this folder as well.
 
 The individual scraper modules (called *scrape.py* or *scrape\_n.py*) are required to implement a scraping function *scrape()*.
 There are two main parts to the scraper.
@@ -47,7 +47,7 @@ The second part is the processing pipeline for text normalization, cleaning, and
 
 ## Citation
 
-If you use any code or data of this repository in a scientific publication, we ask you to cite the following papers:
+If you use any code or data from this repository in a scientific publication, we ask you to cite the following papers:
 
 <!--Update once the final version of the paper has been published.-->
 
@@ -92,9 +92,9 @@ If you use any code or data of this repository in a scientific publication, we a
 
 ## Contributing
 
-Your are welcome to contribute to the Informfully ecosystem and become a part of our community. Feel free to:
+You are welcome to contribute to the Informfully ecosystem and become a part of our community. Feel free to:
   - fork any of the [Informfully repositories](https://github.com/Informfully)
-  - join and write on the [dicussion board](https://github.com/orgs/Informfully/discussions)
+  - join and write on the [discussion board](https://github.com/orgs/Informfully/discussions)
   - make changes and create pull requests
 
 Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
