@@ -43,7 +43,7 @@ There are two main parts to the scraper.
 The first part contains the scraper implementations that allow collecting/scraping online resources.
 The second part is the processing pipeline for text normalization, cleaning, and subsequent steps before storing them in the database.
 
-![Architecture](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/content_scraper_non-transparent.png)
+![Architecture](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/scraper_assets/content_scraper.png)
 
 ## Citation
 
