@@ -49,8 +49,6 @@ The second part is the processing pipeline for text normalization, cleaning, and
 
 If you use any code or data from this repository in a scientific publication, we ask you to cite the following papers:
 
-<!--Update once the final version of the paper has been published.-->
-
 - [Informfully - Research Platform for Reproducible User Studies](https://dl.acm.org/doi/10.1145/3640457.3688066), Heitz *et al.*, Proceedings of the 18th ACM Conference on Recommender Systems, 2024.
 
   ```
@@ -94,9 +92,10 @@ If you use any code or data from this repository in a scientific publication, we
 
 You are welcome to contribute to the Informfully ecosystem and become a part of our community.
 Feel free to:
-* Fork any of the [Informfully repositories](https://github.com/Informfully/Documentation).
-* Suggest new features in [Future Release](https://github.com/orgs/Informfully/projects/1).
-* Make changes and create pull requests.
+
+- Fork any of the [Informfully repositories](https://github.com/Informfully/Documentation).
+- Suggest new features in [Future Release](https://github.com/orgs/Informfully/projects/1).
+- Make changes and create pull requests.
 
 Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
 
