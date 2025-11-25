@@ -11,7 +11,7 @@ It is the combined documentation for all [code repositories](https://github.com/
 **Links and Resources:** [GitHub](https://github.com/orgs/Informfully) | [Website](https://informfully.ch) | [X](https://x.com/informfully) | [Documentation](https://informfully.readthedocs.io) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html) | [Google Play](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [App Store](https://apps.apple.com/us/app/informfully/id1460234202)
 
 > Note: Our GitHub repositories allow you to run your own instance of Informfully.
-If you want to use Informfully, a cloud service hosted at the University of Zurich, please reach out to us.
+If you would like to use Informfully, a cloud service hosted at the University of Zurich, please contact us.
 Free demo accounts available upon request: <info@informfully.ch>
 
 ## Informfully Preview
@@ -36,11 +36,11 @@ git clone https://github.com/Informfully/Scrapers.git
 Informfully is complemented by a dedicated content scraper.
 The entire content scraper pipeline is written in Python and uses MongoDB for persistent storage of news items.
 All you need to do is run and add a scraper to [the scraper package](https://github.com/Informfully/Scrapers/tree/main/scraperpackage/scrapers) and call it in *main.py*.
-You can find sample implementations in this folder as well.
+You can also find sample implementations in this folder.
 
 The individual scraper modules (called *scrape.py* or *scrape\_n.py*) are required to implement a scraping function *scrape()*.
-There are two main parts to the scraper.
-The first part contains the scraper implementations that allow collecting/scraping online resources.
+The scraper consists of two main parts.
+The first part contains the scraper implementations that enable the collection and scraping of online resources.
 The second part is the processing pipeline for text normalization, cleaning, and subsequent steps before storing them in the database.
 
 ![Architecture](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/scraper_assets/content_scraper.png)
