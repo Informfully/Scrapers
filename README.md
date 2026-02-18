@@ -22,7 +22,7 @@ Find out more in the [Online Documentation](https://informfully.readthedocs.io/e
 
 ## Installation Guide
 
-The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access the full [Scrapers documentation here](https://informfully.readthedocs.io/en/latest/scrapers.html).
+The following installation instructions are an abbreviated version to quickly get you set up and ready. You can access the full [Scrapers documentation here](https://informfully.readthedocs.io/en/latest/scrapers.html).
 
 ### Download the Code
 
