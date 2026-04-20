@@ -16,9 +16,9 @@ Free demo accounts available upon request: <info@informfully.ch>
 
 ## Informfully Preview
 
-![Screenshots](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/informfully_assets/informfully_app_screens.png)
+![Screenshots](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/app_screens.png)
 
-Find out more in the [Online Documentation](https://informfully.readthedocs.io/en/latest/app.html) and create your own instance by deploying the  [Platform Repository](https://github.com/Informfully/Platform).
+Find out more in the [Online Documentation](https://informfully.readthedocs.io/en/latest/app.html) and create your own instance by deploying the [Platform Repository](https://github.com/Informfully/Platform).
 
 ## Installation Guide
 
@@ -43,7 +43,7 @@ The scraper consists of two main parts.
 The first part contains the scraper implementations that enable the collection and scraping of online resources.
 The second part is the processing pipeline for text normalization, cleaning, and subsequent steps before storing them in the database.
 
-![Architecture](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/scraper_assets/content_scraper.png)
+![Architecture](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/scraper_assets/content_scraper.png)
 
 ## Citation
 
