@@ -108,4 +108,4 @@ Please post your feature requests and bug reports in our [GitHub issues](https:/
 
 Released under the [MIT License](LICENSE). (Please note that the respective copyright licenses of third-party libraries and dependencies apply.)
 
-![Screenshots](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/app_screens.png)
+![Screenshots](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/footer_screens.png)
