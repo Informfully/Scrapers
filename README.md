@@ -7,10 +7,6 @@ Informfully is an open-source reproducibility platform for content distribution 
 
 **Links and Resources:** [GitHub](https://github.com/orgs/Informfully) | [Website](https://informfully.ch) | [X](https://x.com/informfully) | [Documentation](http://informfully.ch/docs) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html) | [Google Play](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [App Store](https://apps.apple.com/us/app/informfully/id1460234202)
 
-> Note: Our GitHub repositories allow you to run your own instance of Informfully.
-If you would like to use Informfully, a cloud service hosted at the University of Zurich, please contact us.
-Free demo accounts available upon request: <info@informfully.ch>
-
 ## Informfully Preview
 
 ![Screenshots](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/app_screens.png)
